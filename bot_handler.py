@@ -6,82 +6,82 @@ import telebot
 def get_menu(program, day_of_week, time_of_day):
     if program == 'Снижение веса':
         if day_of_week == 0:  # Понедельник
-            if time_of_day == 'завтрак':  # Завтрак
+            if time_of_day == 'завтрак':  
                 menu = 'Завтрак: Омлет из 2 яиц с овощами (помидоры, шпинат), греческий йогурт с орехами.'
-            elif time_of_day == 'обед':  # Обед
+            elif time_of_day == 'обед':  
                 menu = 'Обед: Запеченная куринная грудка с овощами (брокколи, морковь, цветная капуста).'
-            elif time_of_day == 'ужин':  # Ужин
+            elif time_of_day == 'ужин':  
                 menu = 'Ужин: Паровая рыба с картофельным пюре и салатом из свежих овощей.'
         elif day_of_week == 1:
-            if time_of_day == 'завтрак':  # Завтрак
+            if time_of_day == 'завтрак':  
                 menu = 'Завтрак: Миндальное молоко с овсянкой, ягоды (ежевика, малина), орехи. '
-            elif time_of_day == 'обед':  # Обед
+            elif time_of_day == 'обед':  
                 menu = 'Обед: Греческий салат с кускусом и фетой.'
-            elif time_of_day == 'ужин':  # Ужин
+            elif time_of_day == 'ужин':  
                 menu = 'Ужин: Куриные шашлыки с овощным грилем (паприка, цукини, лук).'
         elif day_of_week == 2:
-            if time_of_day == 'завтрак':  # Завтрак
+            if time_of_day == 'завтрак':  
                 menu = 'Завтрак: Тост из цельнозернового хлеба с авокадо и яйцом, свежий апельсиновый сок. '
-            elif time_of_day == 'обед':  # Обед
+            elif time_of_day == 'обед':  
                 menu = 'Обед: Тушеные овощи с тушеным красным мясом (говядина).'
-            elif time_of_day == 'ужин':  # Ужин
+            elif time_of_day == 'ужин':  
                 menu = 'Ужин: Омлет с шампиньонами и зеленью, салат из свежих овощей.'
         elif day_of_week == 3:
-            if time_of_day == 'завтрак':  # Завтрак
+            if time_of_day == 'завтрак':  
                 menu = 'Завтрак: Зеленый смузи (шпинат, банан, морковь), яблоки. '
-            elif time_of_day == 'обед':  # Обед
+            elif time_of_day == 'обед':  
                 menu = 'Обед: Тушеные куриные грудки с овощным рагу (баклажаны, перцы, лук).'
-            elif time_of_day == 'ужин':  # Ужин
+            elif time_of_day == 'ужин':  
                 menu = 'Ужин: Греческий йогурт с ягодами и медом.'
         elif day_of_week == 4:
-            if time_of_day == 'завтрак':  # Завтрак
+            if time_of_day == 'завтрак':  
                 menu = 'Завтрак: Каша из гречки с орехами и сухофруктами.'
-            elif time_of_day == 'обед':  # Обед
+            elif time_of_day == 'обед':  
                 menu = 'Обед: Рисовые лепешки с тунцом и авокадо.'
-            elif time_of_day == 'ужин':  # Ужин
+            elif time_of_day == 'ужин':  
                 menu = 'Ужин: Тыквенный суп с курицей, овощной салат.'
         elif day_of_week == 5:
-            if time_of_day == 'завтрак':  # Завтрак
+            if time_of_day == 'завтрак':  
                 menu = 'Завтрак: Омлет из белков с шпинатом, тост из цельнозернового хлеба.'
-            elif time_of_day == 'обед':  # Обед
+            elif time_of_day == 'обед':  
                 menu = 'Обед: Салат с тунцом, оливками, свежими овощами и лимонным соусом.'
-            elif time_of_day == 'ужин':  # Ужин
+            elif time_of_day == 'ужин':  
                 menu = 'Ужин: Тушеная рыба с овощами (брокколи, морковь).'
         elif day_of_week == 6:
-            if time_of_day == 'завтрак':  # Завтрак
+            if time_of_day == 'завтрак':  
                 menu = 'Завтрак: Творог с ягодами и орехами. '
-            elif time_of_day == 'обед':  # Обед
+            elif time_of_day == 'обед':  
                 menu = 'Обед: Греческий салат с кускусом и креветками.'
-            elif time_of_day == 'ужин':  # Ужин
+            elif time_of_day == 'ужин':  
                 menu = 'Ужин: Куриные котлеты с овощным рататуем.'
     elif program == 'Набор массы':
         if day_of_week == 0:  # Понедельник
-            if time_of_day == 'завтрак':  # Завтрак
+            if time_of_day == 'завтрак':
                 menu = 'Завтрак: Омлет из 3 яиц с овощами (шпинат, помидоры), цельнозерновый тост с авокадо.'
-            elif time_of_day == 'обед':  # Обед
+            elif time_of_day == 'обед':  
                 menu = 'Обед: Гриль-куринная грудка с картофельными ломтиками и овощным салатом.'
-            elif time_of_day == 'ужин':  # Ужин
+            elif time_of_day == 'ужин':  
                 menu = 'Ужин: Жареная рыба с киноа и запеченными овощами.'
         elif day_of_week == 1:
-            if time_of_day == 'завтрак':  # Завтрак
+            if time_of_day == 'завтрак':  
                 menu = 'Завтрак: Греческий йогурт с орехами, ягодами и медом. '
-            elif time_of_day == 'обед':  # Обед
+            elif time_of_day == 'обед':  
                 menu = 'Обед: Стейк из говядины с картофельным пюре и овощами (брокколи, морковь).'
-            elif time_of_day == 'ужин':  # Ужин
+            elif time_of_day == 'ужин':  
                 menu = 'Ужин: Паста из цельнозерновой муки с куриным филе и томатным соусом.'
         elif day_of_week == 2:
-            if time_of_day == 'завтрак':  # Завтрак
+            if time_of_day == 'завтрак':  
                 menu = 'Завтрак: Бананово-шоколадный смузи с овсянкой и орехами.'
-            elif time_of_day == 'обед':  # Обед
+            elif time_of_day == 'обед':  
                 menu = 'Обед: Куриные котлеты с рисом и овощным рагу.'
-            elif time_of_day == 'ужин':  # Ужин
+            elif time_of_day == 'ужин': 
                 menu = 'Ужин: Стейк из лосося с картофельными кусочками и паровой брокколи.'
         elif day_of_week == 3:
-            if time_of_day == 'завтрак':  # Завтрак
+            if time_of_day == 'завтрак': 
                 menu = 'Завтрак: Тост из цельнозернового хлеба с кунжутной пастой и ломтиками курицы.'
-            elif time_of_day == 'обед':  # Обед
+            elif time_of_day == 'обед':  
                 menu = 'Обед: Греческий салат с тунцом, оливками и фетой.'
-            elif time_of_day == 'ужин':  # Ужин
+            elif time_of_day == 'ужин':  
                 menu = 'Ужин: Говяжий гуляш с картофельным пюре и свежими овощами.'
         elif day_of_week == 4:
             if time_of_day == 'завтрак':
@@ -211,7 +211,6 @@ bot = telebot.TeleBot('5781282342:AAE7AjPhxB7_UMGABAoqJa_loe2Of9nl5Og')
 
 @bot.message_handler(commands=['start'])
 def handle_start(message):
-    # Отправка приветственного сообщения
     bot.reply_to(message, 'Привет! Я помогу тебе подобрать программу тренировок и меню на день.')
 
     # Отправка меню программ тренировок
@@ -220,7 +219,6 @@ def handle_start(message):
     bot.send_message(message.chat.id, 'Выберите программу тренировок:', reply_markup=reply_markup)
     bot.register_next_step_handler(message, handle_program_choice)
 
-# Обработчик выбора программы тренировок
 def handle_program_choice(message):
     program = message.text
 
@@ -242,5 +240,4 @@ def handle_program_choice(message):
     training_task = get_training_task(program, day_of_week)
     bot.send_message(message.chat.id, 'Задача для тренировки сегодня: {}'.format(training_task))
 
-# Запуск бота
 bot.polling()
